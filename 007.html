@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTf-8">
+  <title>Credit Card</title>
+  <style>
+    .ysasy{
+      border-color: aqua;
+      margin-left: 67px;
+      margin-right: 480px;
+      padding-top: 40px;
+    }
+    .class1{
+      margin-top: 10px;
+      padding-left: 58px;
+    }
+    .class2{
+      margin-top: 10px;
+      margin-left: 55px;
+    }
+    .class3{
+      margin-top: 10px;
+      margin-left: 11px;
+    }
+    .class4{
+      margin-top: 30px;
+      margin-left: 215px;
+    }
+    .class5{
+      border-top-color: aqua;
+      border-bottom-color: red;
+      border-left-color: rgb(189, 192, 20);
+      border-right-color: rgb(50, 172, 13);
+      border-bottom-width: 9px;
+      border-left-width: 6px;
+      border-top-left-radius: 5px;
+      border-right-style: double;
+      border-right-width: 5px;
+    }
+
+    
+  </style>
+</head>
+<body> 
+  <form action="">
+  <fieldset class="ysasy">
+  <legend>BANCA TRANSILVANIA</legend>
+  <div>
+  <label for="personal">Card Number</label>
+  <input type="text" name="cardnamer" id="personal" placeholder="0000 7653 0000 1726" required> <br>
+  </div>    
+  <div class="class1">
+  <label for="wagty">EXP</label>
+        
+  <input type="text" name="EXP" id="wagty" placeholder="25/67" required>
+ </div>
+   <div class="class2">
+  <label for="cvc">CVC</label>    
+  <input type="text" name="CVC" id="cvc" placeholder="712" minlength="3" maxlength="3" required>
+  </div>
+  <div class="class3">
+  <label for="fulname">FULNAME</label>    
+  <input type="text" name="fulname" id="fulname" placeholder="SULEYMAN  AMANGELDIYEV">
+
+  </div></fieldset>
+  <div class="class4">
+  <button class="class5">Submit</button>
+</div>
+</form>
+</body>
+</html>
