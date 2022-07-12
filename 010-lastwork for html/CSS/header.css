@@ -1,0 +1,44 @@
+.kellesi{
+  background-color: chartreuse;
+  padding-bottom: 12px;
+  padding-top: 12px;
+}
+
+.headtable{
+  background-color: red;
+  padding-right: 32px;
+  padding-left: 32px;
+  border-radius: 12px;
+}
+.homeheader:hover{
+  background-color: black;
+  color:aqua;
+  border-radius: 8px;
+  padding-left: 22px;
+  padding-right: 22px;
+}
+
+.listheader:hover{
+  background-color: antiquewhite;
+  padding-left: 22px;
+  padding-right: 22px;
+  color: darkgreen;
+  border-radius: 8px;
+
+}
+
+.aboutheader:hover{
+  background-color: rgba(97, 66, 207, 0.671);
+  padding-left: 22px;
+  padding-right: 22px;
+  color:cadetblue;
+  border-radius: 8px;
+}
+
+.menuheader:hover{
+  background-color: darkred;
+  padding-left: 22px;
+  padding-right: 22px;
+  color: rgb(236, 205, 28);
+  border-radius: 8px;
+}
