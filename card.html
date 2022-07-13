@@ -11,12 +11,13 @@
   <form>
     
  
-        <label for="cvv">CVV</label>
-        <input type="text" class="form-control" id="cvv" maxlength="3">
+        <label for="cvc">CVC</label>
+        <input type="text" class="form-control" id="cvc" maxlength="3" required>
   <br><br>
 
         <label for="cardNumber">Card Number</label>
-        <input type="text" class="form-control" id="cardNumber" maxlength="16">
+        <input type="text" class="form-control" id="cardNumber" maxlength="16" required>
+        <!-- i have put maxlength also i have put the required. i hope it is correct this time-->
     <br>
     <class="form-group" id="expiration-date">
         <label>Expiration Date</label>
@@ -45,7 +46,7 @@
     <br><br>
     
 
-        <button type="submit" id="confirm">Confirm</button>
+        <button type="submit" id="confirm" required>Confirm</button>
    
 </form>
   
