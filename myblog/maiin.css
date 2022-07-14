@@ -1,0 +1,147 @@
+html{
+  background-image: url(colourful.jpg);
+}
+
+h1{
+  color: rgb(39, 36, 36);
+  text-align: center;
+  font-size: 50px;
+}
+h1:hover{
+  color: brown;
+  background-color: antiquewhite;
+  margin-left: 220px;
+  margin-right: 220px;
+  border-radius: 80px;
+}
+
+footer{
+  background-image: url(footer.jpg);
+  border-radius: 25px;
+
+}
+
+footer:hover{
+  border-color: crimson;
+
+  border-radius: 75px;
+ 
+}
+
+.class1{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  font-size: 20px;
+  color: rgb(248, 248, 248);
+}
+.class1:hover{
+  background-color: black;
+  color:antiquewhite;
+  border-radius: 15px;
+  padding: 8px;
+}
+
+main{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.containter{
+  margin: 40px auto;
+  width: 50%;
+  padding: 8px;
+}
+
+img{
+  float: left;
+  width: 450px;
+  height: 450px;
+  padding: 0 20px 0 0;
+  border-radius: 40px;
+}
+
+.suwrat{
+  background-image: url(./oni2.jpg);
+  margin-left: 80px;
+  margin-right: 80px;
+  font-size: 20px;
+  padding: 8px;
+  border-radius: 19px;
+  margin-bottom: 220px;
+}
+
+.all1:hover{
+
+  background-color: burlywood;
+  color: cornflowerblue;
+  font-size: 25px;
+  border-radius: 8px;
+
+}
+
+.asakda{
+  text-align: center;
+  font-size: 30px;
+  color: rgb(167, 211, 23);
+  background-color: rgb(18, 25, 25);
+  width: 90%;
+  margin: 40px auto;
+  border-radius: 20px;
+}
+
+.feedback{
+  margin-left: 200px;
+  border-color: blue;
+  border-width: 8px;
+  border-radius: 19px;
+  color:brown;
+  font-size: 20px;
+}
+
+.feedback:hover{
+  border-color: yellow;
+  color:rgb(6, 14, 103);
+  font-size: 25px;
+  
+}
+
+.mailler{
+  margin-top: 22px;
+  margin-left: 200px;
+  border-width: 6px;
+}
+
+.mailler:hover{
+  border-color: green;
+}
+
+.knopka1:hover{
+  background-color: rgb(114, 2, 58);
+  color: aliceblue;
+  border-radius: 19px;
+  border-width: 4px;
+  padding: 8px;
+
+}
+.knopka2:hover{
+  background-color: rgb(114, 2, 58);
+  color: rgb(85, 126, 162);
+  border-width: 8px
+}
+
+.labeller{
+  background-color: blanchedalmond;
+  color: aqua;
+  font-size: 19px;
+  padding: 8px;
+  border-radius: 19px;
+}
+
+.labeller:hover{
+  background-color: darkseagreen;
+  color: crimson;
+
+}
