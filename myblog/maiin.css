@@ -141,7 +141,8 @@ img{
 }
 
 .labeller:hover{
-  background-color: darkseagreen;
+
   color: crimson;
 
+  border: 8px solid black;
 }
